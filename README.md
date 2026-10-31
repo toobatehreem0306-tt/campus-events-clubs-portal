@@ -1,39 +1,108 @@
-# Campusly — Campus Events & Clubs Portal
+Campusly – Campus Events & Clubs Portal
 
-A beginner-friendly React app for discovering campus events and student clubs. It was created as a Group 7 project for an eight-student team.
+About the Project
 
-## What it does
+Campusly is a student-friendly web application designed to help students discover campus events, explore student clubs, and stay connected with their college community.
 
-- Browse sample campus events and clubs.
-- Filter and search events by name, club, venue, or category.
-- Mark yourself as interested in an event and join clubs (the buttons update locally in your browser).
-- View a responsive dashboard that works on desktop and mobile.
+The platform provides an interactive interface where students can browse upcoming events, explore different clubs, search for activities, and express their interest in campus programs.
 
-This is a front-end prototype: the sample content is stored in the app, and registrations are not saved to a server.
+Features
 
-## Run it on your computer
+- Event Discovery: Browse upcoming campus events.
+- Search Functionality: Search events by name, club, venue, or category.
+- Event Filtering: Filter events by Workshop, Tech, Culture, and Wellness.
+- Student Clubs: Explore different student clubs and their activities.
+- Join Clubs: Interact with club joining options.
+- Event Interest: Mark yourself as interested in upcoming events.
+- Responsive Design: User-friendly interface for desktop and mobile devices.
 
-1. Install Node.js (the LTS version) from [nodejs.org](https://nodejs.org/).
-2. Open a terminal in this project folder.
-3. Run `npm install` once, then `npm run dev`.
-4. Open the local address printed in the terminal, usually `http://localhost:5173`.
+Technologies Used
 
-To make a production build, run `npm run build`. The generated website files will be in `dist/`.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
 
-## Upload this project using the GitHub website
+Project Structure
 
-1. Sign in at [github.com](https://github.com/) and choose **+ → New repository**.
-2. Name it `campus-events-clubs-portal`, choose **Public** or **Private**, and create the repository. For an empty upload, leave “Add a README” unchecked.
-3. If you downloaded this project as a ZIP, extract it first. Open the project folder and select its contents—not the outer folder and not `node_modules`.
-4. On the new repository page, choose **Add file → Upload files**. Drag the project files and the `src` folder into the upload area, or use the file chooser. Include `README.md`, `package.json`, `index.html`, `.gitignore`, and `src/`.
-5. Enter a commit message such as `Add Campusly React project`, then click **Commit changes**.
+campus-events-clubs-portal/
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+└── README.md
 
-Do not upload `node_modules` or `dist`; they are ignored and can be recreated. GitHub's website uploads source code but does not run the app. To preview the project online later, connect the repository to a hosting service such as GitHub Pages or Vercel.
+Installation and Setup
 
-## Suggested team split (8 students)
+Follow these steps to run the project locally.
 
-1. Project coordination and README; 2. dashboard and navigation; 3. event data and event cards; 4. search and filters; 5. club cards and join interactions; 6. visual design and responsive styling; 7. accessibility and testing; 8. presentation and future feature planning.
+Step 1: Install Node.js
 
-## Tech
+Download and install Node.js from:
 
-React, JavaScript, Vite, and CSS. No external UI library is required.
+https://nodejs.org/
+
+Step 2: Clone the Repository
+
+git clone YOUR_GITHUB_REPOSITORY_LINK
+
+Step 3: Open the Project Folder
+
+cd campus-events-clubs-portal
+
+Step 4: Install Dependencies
+
+npm install
+
+Step 5: Start the Development Server
+
+npm run dev
+
+Step 6: Open the Application
+
+Open the local URL displayed in your terminal, usually:
+
+http://localhost:5173
+
+Production Build
+
+To create a production-ready build, run:
+
+npm run build
+
+The generated production files will be available in the "dist" folder.
+
+Future Enhancements
+
+- Student registration and login.
+- Database integration for storing event information.
+- Online event registration.
+- Admin dashboard for managing events and clubs.
+- Notifications for upcoming events.
+- Student profile management.
+
+Project Information
+
+Project Name: Campusly – Campus Events & Clubs Portal
+
+Team: Group 7
+
+Project Type: Front-End Web Development
+
+Purpose: To provide a digital platform for discovering campus events and connecting students with clubs and activities.
+
+Note
+
+This project is a front-end prototype. Event and club information may use sample data. Backend integration and database functionality can be added in future versions.
+
+---
+
+Developed as a student group project.
